@@ -1,0 +1,22 @@
+body{
+    background: gray;
+}
+H1{
+    text-align: center; 
+}
+.jumbotron_text-center{
+    background: #d4ad86;
+    display: block;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    color: #534940;
+}
+th{
+    font-size: larger;
+}
+

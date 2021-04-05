@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test page</title>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+<div class="jumbotron_text-center">
+    <h1>CV</h1>
+    <table>
+        <tr>
+            <th>Personal information</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>First name / Surname</td>
+            <td><%= info.name %></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><%= info.gender %></td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td><%= info.DoB %></td>
+        </tr>
+        <tr>
+            <td>Telephone</td>
+            <td><%= info.Telephone %></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td><%= info.mail %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.place %></td>
+        </tr>
+ 
+        <tr>
+            <th>Work experience</th>
+            <th>Mehhatroonika experience</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.firstExp %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.secondExp %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.lastExp %></td>
+        </tr>
+        
+
+        <tr>
+            <th>Education</th>
+            <th>Tallinna toostushariduskeskus</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.meh %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.prog %></td>
+        </tr>
+  
+        <tr>
+            <th>Languages</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.firstLag %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.secondLag %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><%= info.lastLag %></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </table>
+</div>
+</body>
+</html>
